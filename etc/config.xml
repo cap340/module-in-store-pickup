@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <cap_instorepickup>
+                <active>1</active>
+                <title>In-Store Pickup</title>
+                <shipping_cost>0</shipping_cost>
+                <sallowspecific>0</sallowspecific>
+                <sort_order>15</sort_order>
+                <model>Cap\InStorePickup\Model\Carrier\InStorePickup</model>
+            </cap_instorepickup>
+        </carriers>
+    </default>
+</config>
